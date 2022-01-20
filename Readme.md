@@ -1,4 +1,4 @@
-#README file to RecurrentEvolution workflow, by S.H.A. von der Dunk (2019); see the original paper.
+#README file to RecurrentEvolution workflow, by S.H.A. von der Dunk (2019); see the original paper (https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-020-01660-1).
 
 The programme is currently a snakemake workflow comprised of several small scripts.
 In the Data directory we included two input files as an example that allow you to run through the entire workflow by running "snakemake PTHR11822.out". Snakemake is a programme for building pipelines that works by making through specified rules the requested output-file (PTHR11822.out) if it can (i.e. given it has the input files PTHR11822.indies and PTHR11822.mafft). We refer to the Snakemake manuals for the details: https://snakemake.readthedocs.io/en/stable/
